@@ -19,7 +19,7 @@ class Student {
       name; // Instance variable , name will act as default getter and setter, ( instance variable defult getter and setter hisebe kaj korbe) // it is  private instance variable for its own library
 
   late double
-      _percent; // for local purpose we should not use instance variable because it wll create default getter and setter, in dart we don't have modifier of private, public or protected, so you cann't make this variable private to this class but using underscore symbol we make make this variable private to its own library example: _percent, but it can't make it private for its own class
+      _percent; // for local purpose we should not use instance variable because it wll create default getter and setter, in dart we don't have modifier of private, public or protected, so you cann't make this variable private to this class but using underscore symbol we make make this variable private to its own library example: _percent, but we can't make it private for its own class
 
 /*
   void set percentage(double marksSecured) {
